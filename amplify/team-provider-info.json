@@ -16,5 +16,23 @@
         "cognito81d9f49f": {}
       }
     }
+  },
+  "cpapp": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsamplifyreacttempl-cpapp-132902-authRole",
+      "UnauthRoleArn": "arn:aws:iam::954075284382:role/amplify-awsamplifyreacttempl-cpapp-132902-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::954075284382:role/amplify-awsamplifyreacttempl-cpapp-132902-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-awsamplifyreacttempl-cpapp-132902-deployment",
+      "UnauthRoleName": "amplify-awsamplifyreacttempl-cpapp-132902-unauthRole",
+      "StackName": "amplify-awsamplifyreacttempl-cpapp-132902",
+      "StackId": "arn:aws:cloudformation:us-east-1:954075284382:stack/amplify-awsamplifyreacttempl-cpapp-132902/d6f39000-7000-11ec-bef8-0a3d0a4ac375",
+      "AmplifyAppId": "d150kh01nxvr10"
+    },
+    "categories": {
+      "auth": {
+        "cognito81d9f49f": {}
+      }
+    }
   }
 }

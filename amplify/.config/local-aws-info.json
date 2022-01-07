@@ -3,5 +3,10 @@
     "configLevel": "project",
     "useProfile": true,
     "profileName": "sampleappprofile"
+  },
+  "cpapp": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "default"
   }
 }
