@@ -32,7 +32,10 @@
         },
         "BucketName": {
           "Ref": "DeploymentBucketName"
-        }
+        },
+        "VersioningConfiguration": {
+          "Status": "Enabled"
+        },
       }
     },
     "AuthRole": {

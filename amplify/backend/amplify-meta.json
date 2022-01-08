@@ -25,7 +25,7 @@
         "IdentityPoolName": "cognito81d9f49f_identitypool_81d9f49f__cpapp",
         "UserPoolName": "cognito81d9f49f_userpool_81d9f49f"
       },
-      "lastPushTimeStamp": "2022-01-07T21:44:44.693Z",
+      "lastPushTimeStamp": "2022-01-08T06:03:49.087Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-awsamplifyreacttempl-cpapp-132902-deployment/amplify-cfn-templates/auth/cognito81d9f49f-cloudformation-template.yml",
         "logicalId": "authcognito81d9f49f"
