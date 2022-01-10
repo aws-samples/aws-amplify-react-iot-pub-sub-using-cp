@@ -15,45 +15,7 @@
   "auth": {
     "cognito81d9f49f": {
       "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "output": {
-        "AppClientSecret": "1bgc4enceubggcdfdhcejp2kvmoigfblptqqgcljin8vh0pges46",
-        "UserPoolId": "us-east-1_oYKhPyr7b",
-        "AppClientIDWeb": "4ve0e5p7ds6kmgmjn5honu35a2",
-        "AppClientID": "2claj2mjgcl1dvlj03ev33voc1",
-        "IdentityPoolId": "us-east-1:e7b76b41-8c62-4af6-a959-a80a8c2a0c6b",
-        "IdentityPoolName": "cognito81d9f49f_identitypool_81d9f49f__cpapp",
-        "UserPoolName": "cognito81d9f49f_userpool_81d9f49f"
-      },
-      "lastPushTimeStamp": "2022-01-08T06:03:49.087Z",
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-awsamplifyreacttempl-cpapp-132902-deployment/amplify-cfn-templates/auth/cognito81d9f49f-cloudformation-template.yml",
-        "logicalId": "authcognito81d9f49f"
-      },
-      "frontendAuthConfig": {
-        "socialProviders": [],
-        "usernameAttributes": [],
-        "signupAttributes": [
-          "EMAIL"
-        ],
-        "passwordProtectionSettings": {
-          "passwordPolicyMinLength": 8,
-          "passwordPolicyCharacters": [
-            "REQUIRES_LOWERCASE",
-            "REQUIRES_UPPERCASE",
-            "REQUIRES_NUMBERS",
-            "REQUIRES_SYMBOLS"
-          ]
-        },
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
-        ],
-        "verificationMechanisms": [
-          "EMAIL"
-        ]
-      },
-      "lastPushDirHash": "mHA/ch0xaFcqqTp1Gn5yjdZQjKo="
+      "providerPlugin": "awscloudformation"
     }
   }
 }

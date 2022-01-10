@@ -1,5 +1,5 @@
 var awsIotCoreConfiguration = {
-    endpoint: 'https://iot.us-east-1.amazonaws.com',
+    endpoint: '<AWS-IoT-endpoint>',
     region: 'us-east-1',
     apiVersion: '2015-05-28'
   };
