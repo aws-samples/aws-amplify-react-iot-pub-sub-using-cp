@@ -1,14 +1,14 @@
 {
-  "test": {
+  "cpapp": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-awsamplifyreacttempl-test-103101-authRole",
-      "UnauthRoleArn": "arn:aws:iam::954075284382:role/amplify-awsamplifyreacttempl-test-103101-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::954075284382:role/amplify-awsamplifyreacttempl-test-103101-authRole",
+      "AuthRoleName": "amplify-awsamplifyreacttempl-cpapp-132902-authRole",
+      "UnauthRoleArn": "arn:aws:iam::954075284382:role/amplify-awsamplifyreacttempl-cpapp-132902-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::954075284382:role/amplify-awsamplifyreacttempl-cpapp-132902-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-awsamplifyreacttempl-test-103101-deployment",
-      "UnauthRoleName": "amplify-awsamplifyreacttempl-test-103101-unauthRole",
-      "StackName": "amplify-awsamplifyreacttempl-test-103101",
-      "StackId": "arn:aws:cloudformation:us-east-1:954075284382:stack/amplify-awsamplifyreacttempl-test-103101/a92ffd10-b27e-11eb-9e65-0a3d3edde975",
+      "DeploymentBucketName": "amplify-awsamplifyreacttempl-cpapp-132902-deployment",
+      "UnauthRoleName": "amplify-awsamplifyreacttempl-cpapp-132902-unauthRole",
+      "StackName": "amplify-awsamplifyreacttempl-cpapp-132902",
+      "StackId": "arn:aws:cloudformation:us-east-1:954075284382:stack/amplify-awsamplifyreacttempl-cpapp-132902/d6f39000-7000-11ec-bef8-0a3d0a4ac375",
       "AmplifyAppId": "d150kh01nxvr10"
     },
     "categories": {

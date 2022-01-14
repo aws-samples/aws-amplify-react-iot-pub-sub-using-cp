@@ -1,7 +1,7 @@
 {
-  "test": {
+  "cpapp": {
     "configLevel": "project",
     "useProfile": true,
-    "profileName": "sampleappprofile"
+    "profileName": "default"
   }
 }
