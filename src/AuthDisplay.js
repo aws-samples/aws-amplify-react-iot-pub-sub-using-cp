@@ -6,14 +6,13 @@ import AWSConfiguration from './aws-iotcore-configuration.js';
 
 function createAndAttachPolicy(id) {
     var Iot = new AWS.Iot({region: AWSConfiguration.region, apiVersion: AWSConfiguration.apiVersion, endpoint: AWSConfiguration.endpoint});
-    var policyName = "amplifyIotReactApp";
+    var policyName = "amplifyIotReactApp-v3";
 
 
     var params = {policyName: policyName};
     Iot.getPolicy(params , function(err, data) {
           if (err) {
-               var policy = {"Version": "2012-10-17", "Statement": [{"Effect": "Allow", "Action": ["*"],"Resource": ["*"]}]};
-                   var policyDoc = JSON.stringify(policy);
+               var policyDoc = AWSConfiguration.policy;
 
                    console.log("Creating policy: " + policyName + " with doc: " + policyDoc);
 
@@ -72,7 +71,7 @@ function AuthDisplay(props) {
         },[]);
 
     // Initialize the Amazon Cognito credentials provider
-    AWS.config.region = 'us-east-1';
+    AWS.config.region = AWSConfiguration.region;
     AWS.config.credentials =  essentialCredentials;
 
     const [cognitoIdentityId, setCognitoIdentityId] = useState({});
