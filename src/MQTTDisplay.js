@@ -46,7 +46,7 @@ function MQTTDisplay(props) {
     // Subscriptions each get their own child object with separate connections.
 
     // mqtt clients require a unique clientId; we generate one below
-    var clientId = 'ayesha-sampleapp-' + (Math.floor((Math.random() * 100000) + 1));
+    var clientId = 'iotcognito-cp-sampleapp-' + (Math.floor((Math.random() * 100000) + 1));
 
     // get credentials and, from them, extract key, secret key, and session token
     // Amplify's auth functionality makes this easy for us...
